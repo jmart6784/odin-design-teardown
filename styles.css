@@ -92,3 +92,35 @@ h1, h2, h3, h4, h5, h6, p, div {
   border: 0px;
   background-color: var(--high);
 }
+
+/* Title container */
+/* #container {
+  border: 1px solid blue;
+} */
+
+#title-div {
+  display: grid;
+  grid-template-columns: 1.5fr 10fr 1.5fr;
+  align-items: center;
+  justify-items: center;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.home-title {
+  width: fit-content;
+  background-color: var(--high);
+  margin: 0px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#serious-red {
+  background-color: var(--low);
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
