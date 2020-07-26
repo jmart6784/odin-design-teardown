@@ -134,7 +134,6 @@ h1, h2, h3, h4, h5, h6, p, div, li, a {
 }
 
 #rec-article-div {
-  border: 1px solid red;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -349,4 +348,75 @@ h1, h2, h3, h4, h5, h6, p, div, li, a {
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 50px;
+}
+
+/* New Articles */
+#new-articles-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-bottom: 500px;
+  position: relative;
+  background-color: black;
+}
+
+.n-a-1 {
+  margin-left: 40px;
+}
+
+.new-article {
+  background-color: black;
+  padding: 10px;
+}
+
+.new-article:hover {
+  transform: scale(1.05);
+}
+
+.empty-div:hover {
+  transform: scale(1);
+}
+
+#n-a-label {
+  background-color: var(--low);
+  width: fit-content;
+  margin: 0px;
+  height: fit-content;
+  padding: 0 8px 0 8px;
+  transform: rotate(90deg);
+  align-self: center;
+  justify-self: center;
+  position: absolute;
+  top: 200px;
+  right: 1730px;
+  z-index: 10;
+}
+
+.new-date {
+  background-color: var(--low);
+  font-size: 15px;
+}
+
+.new-title {
+  font-size: 30px;
+  background-color: var(--high);
+}
+
+.new-author {
+  background-color: var(--low);
+}
+
+.new-description {
+  background-color: var(--medium);
+  font-size: 20px;
+}
+
+.new-arrow {
+  background-color: var(--low);
+  width: fit-content;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.new-arrow:hover {
+  background-color: black;
 }
