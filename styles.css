@@ -8,7 +8,7 @@ body {
   background-image: linear-gradient(rgb(53, 0, 0), rgb(27, 0, 0));
 }
 
-h1, h2, h3, h4, h5, h6, p, div {
+h1, h2, h3, h4, h5, h6, p, div, li, a {
   color: rgb(255, 255, 255);
 }
 
@@ -270,4 +270,83 @@ h1, h2, h3, h4, h5, h6, p, div {
   width: fit-content;
   height: fit-content;
   padding: 0 20px 0 20px;
+}
+
+/* Join Smashing AD */
+#smash-ad {
+  background-color: var(--high);
+  height: fit-content;
+  padding: 50px 0 50px 0;
+}
+
+#desc-ad {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr;
+  grid-template-rows: 0.5fr;
+  align-items: center;
+  justify-items: center;
+}
+
+#ad-description {
+  margin: 0px;
+  background-color: var(--medium);
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 23px;
+  justify-self: end;
+  position: relative;
+}
+
+#ad-pic {
+  transform: rotate(-15deg);
+  display: block;
+  z-index: 10;
+  align-self: start;
+  width: 364px;
+  height: 306px;
+  position: absolute;
+  right: 450px;
+  top: 1100px;
+  z-index: 10;
+}
+
+#ad-pic:hover {
+  transform: rotate(0deg);
+  transition: 0.25s;
+}
+
+#close-ad {
+  font-size: 25px;
+  display: block;
+  background-color: var(--low);
+  color: white;
+  text-decoration: none;
+  padding: 0 10px 0 10px;
+  align-self: start;
+  justify-self: start;
+  margin-top: 50px;
+  position: absolute;
+  right: 400px;
+  top: 1200px;
+  z-index: 999;
+  border: 0px;
+}
+
+#close-ad:hover {
+  color: red;
+}
+
+.li-ad {
+  font-size: 23px;
+  background-color: var(--medium);
+}
+
+#ad-btn {
+  font-size: 30px;
+  text-decoration: none;
+  background-color: var(--high);
+  border: 3px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 50px;
 }
