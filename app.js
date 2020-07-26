@@ -1,5 +1,6 @@
-let closeAd = document.getElementById("smash-ad");
+let closeButton = document.getElementById("close-ad");
+let adDiv = document.getElementById("smash-ad");
 
-closeAd.addEventListener("click", function() {
-  closeAd.style.display = "none";
+closeButton.addEventListener("click", function() {
+  adDiv.style.display = "none";
 });

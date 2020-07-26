@@ -354,9 +354,7 @@ h1, h2, h3, h4, h5, h6, p, div, li, a {
 #new-articles-div {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  margin-bottom: 500px;
   position: relative;
-  background-color: black;
 }
 
 .n-a-1 {
@@ -364,7 +362,6 @@ h1, h2, h3, h4, h5, h6, p, div, li, a {
 }
 
 .new-article {
-  background-color: black;
   padding: 10px;
 }
 
@@ -419,4 +416,66 @@ h1, h2, h3, h4, h5, h6, p, div, li, a {
 
 .new-arrow:hover {
   background-color: black;
+}
+
+/* New Articles section 2 */
+#n-a-s-2 {
+  border: 1px solid blue;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  margin-top: 50px;
+  margin-bottom: 500px;
+}
+
+#ad-2-div {
+  background-color: black;
+  border-radius: 20px;
+  margin-right: 10px;
+  padding-bottom: 20px;
+}
+
+#ad-2-div p {
+  text-align: center;
+  background-color: var(--low);
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 0 5px 0 5px;
+}
+
+#link-members {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 50px;
+  background-color: var(--high);
+  width: fit-content;
+  padding: 0 20px 0 20px;
+}
+
+#img2 {
+  width: 258px;
+  height: 290px;
+  display: block;
+  margin: 0 auto;
+}
+
+#ad-2-desc {
+  text-align: center;
+  font-size: 20px;
+  background-color: var(--medium);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0 10px 0 10px;
+}
+
+#ad-2-link {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  background-color: var(--high);
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 30px;
 }
