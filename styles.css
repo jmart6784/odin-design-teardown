@@ -420,11 +420,9 @@ h1, h2, h3, h4, h5, h6, p, div, li, a {
 
 /* New Articles section 2 */
 #n-a-s-2 {
-  border: 1px solid blue;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   margin-top: 50px;
-  margin-bottom: 500px;
 }
 
 #ad-2-div {
@@ -478,4 +476,12 @@ h1, h2, h3, h4, h5, h6, p, div, li, a {
   border-radius: 20px;
   text-decoration: none;
   font-size: 30px;
+}
+
+/* New Articles Section 3 */
+#n-a-s-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  margin-top: 50px;
+  margin-bottom: 500px;
 }
