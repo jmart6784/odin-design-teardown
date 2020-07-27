@@ -653,3 +653,65 @@ h1, h2, h3, h4, h5, h6, p, div, li, a {
   width: fit-content;
   padding: 0 10px 0 10px;
 }
+
+/* Book Ad 2 */
+#ba2-container {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: black;
+  margin-bottom: 500px;
+}
+
+#ba2-left {
+  padding-left: 50px;
+}
+
+#ba2-txt1 {
+  background-color: var(--low);
+  width: fit-content;
+  padding: 0 10px 0 10px;
+  margin-top: 50px;
+}
+
+#ba2-txt2 {
+  display: block;
+  background-color: var(--medium);
+  width: fit-content;
+  padding: 0 20px 0 20px;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+#ba2-txt3 {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+#ba2-txt4 {
+  background-color: var(--high);
+  display: block;
+  width: fit-content;
+  font-size: 30px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+
+#ba2-txt4:hover {
+  color: red;
+}
+
+#book2 {
+  width: 300px;
+  height: 413px;
+  justify-self: end;
+  margin-right: 100px;
+  transform: rotate(-15deg);
+}
+
+#book2:hover {
+  transform: rotate(0deg);
+  transition: 0.3s;
+}
