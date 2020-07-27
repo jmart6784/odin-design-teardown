@@ -660,7 +660,6 @@ h1, h2, h3, h4, h5, h6, p, div, li, a {
   display: grid;
   grid-template-columns: 2fr 1fr;
   background-color: black;
-  margin-bottom: 500px;
 }
 
 #ba2-left {
@@ -714,4 +713,49 @@ h1, h2, h3, h4, h5, h6, p, div, li, a {
 #book2:hover {
   transform: rotate(0deg);
   transition: 0.3s;
+}
+
+/* Guides Section */
+#guides-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  padding: 0 100px 0 100px;
+  margin-top: 100px;
+}
+
+.guide-div{
+  background-color: black;
+}
+
+.guide-txt1 {
+  font-size: 20px;
+  background-color: var(--low);
+  width: fit-content;
+  padding: 0 5px 0 5px;
+}
+
+.guide-txt2 {
+  font-size: 50px;
+  background-color: var(--high);
+  padding: 0 10px 0 10px;
+}
+
+.guide-txt3 {
+  font-size: 22px;
+  background-color: var(--medium);
+  padding: 0 5px 0 5px;
+  margin-top: 50px;
+}
+
+.guide-txt4 {
+  display: block;
+  background-color: var(--high);
+  text-decoration: none;
+  font-size: 30px;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
 }
