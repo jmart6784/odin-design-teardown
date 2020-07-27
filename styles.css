@@ -391,20 +391,24 @@ h1, h2, h3, h4, h5, h6, p, div, li, a {
 .new-date {
   background-color: var(--low);
   font-size: 15px;
+  padding-left: 5px;
 }
 
 .new-title {
   font-size: 30px;
   background-color: var(--high);
+  padding-left: 5px;
 }
 
 .new-author {
   background-color: var(--low);
+  padding-left: 5px;
 }
 
 .new-description {
   background-color: var(--medium);
   font-size: 20px;
+  padding-left: 5px;
 }
 
 .new-arrow {
@@ -483,5 +487,78 @@ h1, h2, h3, h4, h5, h6, p, div, li, a {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
   margin-top: 50px;
-  margin-bottom: 500px;
+}
+
+/* See latest link */
+#see-latest {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#s-l-link {
+  background-color: var(--medium);
+  padding: 10px;
+  font-size: 17px;
+  display: block;
+  text-decoration: none;
+  width: fit-content;
+  margin: 0 auto;
+  border-bottom: 5px solid red;
+}
+
+/* Book AD */
+#book-ad-div {
+  border: 1px solid blue;
+  margin-top: 100px;
+  background-color: black;
+}
+
+#b-a-date {
+  text-align: center;
+  background-color: var(--low);
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 0 10px 0 10px;
+}
+
+#book-ad-link {
+  display: block;
+  background-color: var(--high);
+  text-align: center;
+  width: fit-content;
+  font-size: 50px;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  margin-top: 50px;
+}
+
+#book-ad-desc {
+  background-color: var(--medium);
+  margin: 0 auto;
+  text-align: center;
+  width: fit-content;
+  font-size: 30px;
+  padding: 0 20px 0 20px;
+  margin-top: 20px;
+}
+
+#book-ad-link-2 {
+  font-size: 30px;
+  background-color: var(--high);
+  display: block;
+  width: fit-content;
+  padding: 20px;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+#img4 {
+  width: 920px;
+  height: 517px;
+  display: block;
+  margin: 0 auto;
 }
