@@ -508,9 +508,9 @@ h1, h2, h3, h4, h5, h6, p, div, li, a {
 
 /* Book AD */
 #book-ad-div {
-  border: 1px solid blue;
   margin-top: 100px;
   background-color: black;
+  padding-bottom: 70px;
 }
 
 #b-a-date {
@@ -561,4 +561,48 @@ h1, h2, h3, h4, h5, h6, p, div, li, a {
   height: 517px;
   display: block;
   margin: 0 auto;
+}
+
+/* Person of the week */
+#potw {
+  border: 1px solid blue;
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 0.25fr 1fr;
+  align-items: center;
+  justify-items: center;
+  padding: 50px 0 50px 0; 
+  margin-bottom: 500px;
+}
+
+#potw-avatar {
+  display: block;
+  transform: rotate(-15deg);
+  width: 286px;
+  height: 286px;
+  border-radius: 20px;
+  border: 5px solid red;
+}
+
+#potw-avatar:hover {
+  transform: rotate(0deg);
+}
+
+#potw-text-div {
+  padding-left: 10px;
+}
+
+#potw-title {
+  font-size: 20px;
+  background-color: var(--low);
+  width: fit-content;
+  padding: 0 5px 0 5px;
+}
+
+#potw-desc {
+  background-color: var(--medium);
+  padding: 10px;
+  width: fit-content;
+  margin-right: 50px;
+  font-size: 20px;
 }
