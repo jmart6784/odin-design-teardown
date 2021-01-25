@@ -1,4 +1,12 @@
-The Smashing Magazine color coded to represent visual weight.
+![screen shot](screenshot.png)
 
-Part of the Odin Project:
-https://www.theodinproject.com/courses/html-and-css/lessons/design-teardown?ref=lnav
+The purpose of this project was to practice color coding The Smashing Magazine's visual weight.
+
+Visit this project live at: https://jmart6784.github.io/odin-design-teardown/
+
+OR
+
+Run the project locally:
+
+1. Download or clone the repository.
+2. Open index.html with your web browser
